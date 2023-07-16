@@ -1,0 +1,80 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Comforta' ,cursive;
+}
+/*   N A V B A R    */
+
+nav .logo{
+    color:olivedrab;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 110px;
+  }
+  nav .logo span{
+    color:cadetblue;
+  }
+  nav{
+    height: 70px;
+    background: #063247;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    width: 100%;
+    z-index: 1000px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #063247;
+    transition: .5s;
+  }
+  nav ul li a:hover,
+  nav ul li a.active{
+    color: #23dbdb;
+    text-decoration: none;
+  }
+  nav ul ul{
+    position: absolute;
+    top: 85px;
+    width: 200px;
+    border-top: 3px solid #23dbdb;
+    opacity: 0;
+    visibility: hidden;
+  }
+  nav ul li:hover  ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+
+  }
+  nav ul ul li{
+    width: 200px;
+    right: 30px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #042331;
+    border-top: none;
+    list-style-type: none;
+  }
+  nav ul ul li a{
+    line-height: 50px;
+  }
+ 
+  /*   H O M E   S E C T I O N */
+
+.section-title position-relative mb-4{
+  font-size: large;
+}
+  
